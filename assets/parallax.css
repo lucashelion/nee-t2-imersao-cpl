@@ -1,0 +1,25 @@
+.section-bg-parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.bgimg-parallax {
+    position: relative;
+    opacity: 0.25;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("images/bg/bg01.jpg");
+    min-height: 100%;
+}
+
+.section-indice {
+    z-index: 1 !important;
+    background: #fff;
+}

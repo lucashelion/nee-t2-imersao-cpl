@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Heroes Legend";
+    src: url('fonts/Heroes_Legend.ttf') format("truetype");
+}
+
+.font_heroes {
+    font-family: 'Heroes Legend', Verdana, Tahoma;
+}
+
+@font-face {
+    font-family: "Franklin Gothic Medium";
+    src: url('fonts/Franklin_Gothic_Medium.ttf') format("truetype");
+}
+
+.font_franklin {
+    font-family: 'Franklin Gothic Medium', Verdana, Tahoma;
+}
+
+@font-face {
+    font-family: "Bebas Neue Regular";
+    src: url('fonts/BebasNeue-Regular.ttf') format("truetype");
+}
+
+.font_bebas {
+    font-family: 'Bebas Neue Regular', Verdana, Tahoma;
+}

@@ -1,0 +1,54 @@
+.countdown-timer-style-2 .countdown_amount:after {
+    height: 0px;
+    background: none;
+}
+
+.countdown-timer-style-2 .countdown_amount:after {
+    background: none;
+}
+
+.countdown-timer-style-2 .countdown_amount {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    text-shadow: none;
+    background: none;
+    box-shadow: 0px;
+    filter: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    /*color: #979ca0;*/
+    color: #999;
+    display: inline-block;
+    position: relative;
+    /*font-family: 'Raleway';*/
+    /*font-family: 'Ubuntu';*/
+    font-family: 'Bebas Neue Regular';
+    font-size: 35px;
+    font-weight: 300;
+    height: 20px;
+    width: 20px;
+    padding: 15px;
+    margin: 0 2px 0;
+}
+
+.countdown-timer-style-2 .countdown_section {
+    /*color: #979ca0;*/
+    color: #999;
+    font-family: 'Raleway';
+    /*font-family: 'Ubuntu';*/
+    font-size: 14px;
+    font-weight: 300;
+    /*text-transform: uppercase;*/
+}
+
+@media only screen and (max-width: 479px) {
+    .countdown-timer-style-2 .countdown_amount {
+        font-size: 17px;
+        width: 16px;
+    }
+
+    .countdown-timer-style-2 .countdown_section {
+        font-size: 12px;
+    }
+}
